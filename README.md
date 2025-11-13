@@ -26,9 +26,6 @@ cp -u OPENCODE_ASSETS/command/*.md ~/.opencode/command/
 # Copy theme files
 cp -u OPENCODE_ASSETS/themes/*.json ~/.opencode/themes/
 ```
-````
-
-````
 
 ### 2. Setup Cursor Configuration
 
@@ -47,6 +44,4 @@ cp -u CURSOR_ASSETS/commands/*.md ~/.cursor/commands/
 - The `cp -u` flag ensures existing files are only overwritten if the source is newer
 - All necessary parent directories will be created if they don't already exist
 - After setup, users can run OpenCode commands and Cursor commands from their respective directories
-
-```
 ````
