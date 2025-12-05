@@ -10,6 +10,7 @@ This project has this setup for:
 - effect.ts
 - neverthrow
 - opencode
+- deck.gl
 
 ## getting started
 
