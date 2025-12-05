@@ -11,6 +11,7 @@ This project has this setup for:
 - neverthrow
 - opencode
 - deck.gl
+- maplibre-gl-js
 
 ## getting started
 
