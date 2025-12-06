@@ -28,6 +28,7 @@ When you use a Cursor command like `/maplibre-gl-js`, it tells the AI assistant 
 
 1. clone the repo into your home directory, it should be called `~/.better-coding-agents`
 2. copy paste the following command into opencode (while it's open in your home directory)
+3. **After any updates to the repository, re-run the setup commands to get new Cursor commands like `/health-check`**
 
 And now you have slash commands for these libraries/frameworks in opencode and cursor. as well as a special agent in opencode that can search the codebase for the answer to a question.
 
