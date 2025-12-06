@@ -24,6 +24,18 @@ This utility provides **local filesystem access** to cloned source repositories:
 
 When you use a Cursor command like `/maplibre-gl-js`, it tells the AI assistant where to find the local source code for searching.
 
+## Automated Setup (Recommended)
+
+For the best experience, set up automatic context in Cursor:
+
+### Option 1: Global Instructions
+1. Copy the template from `global-instructions-template.md`
+2. Go to Cursor Settings → General → Global Instructions
+3. Paste and save - now every conversation has context!
+
+### Option 2: Quick Context Command
+Use `/setup-context` in any chat to establish the full context automatically.
+
 ## getting started
 
 1. clone the repo into your home directory, it should be called `~/.better-coding-agents`
