@@ -1,24 +1,21 @@
-# Setup Context for .better-coding-agents
+# .better-coding-agents Context
 
-Usage: /setup-context
-
-When this command is used, immediately acknowledge:
+This workspace has access to complete source code repositories for key libraries:
 
 **Available Libraries:**
-- **MapLibre GL JS** at `~/.better-coding-agents/resources/maplibre-gl-js` (use `/maplibre-gl-js`)
-- **deck.gl** at `~/.better-coding-agents/resources/deck.gl` (use `/deck.gl`)
-- **Svelte** at `~/.better-coding-agents/resources/svelte.dev` (use `/svelte`)
-- **Neverthrow** at `~/.better-coding-agents/resources/neverthrow` (use `/neverthrow`)
+- **MapLibre GL JS** - Interactive vector maps (`/maplibre-gl-js`)
+- **deck.gl** - WebGL data visualization (`/deck.gl`)
+- **Svelte** - Reactive UI framework (`/svelte`)
+- **Neverthrow** - Type-safe error handling (`/neverthrow`)
 
-**Key Facts:**
-- Local filesystem access only - no APIs or external services
+**Local Access:**
+- All source code at `~/.better-coding-agents/resources/`
+- No external APIs or services required
 - Works completely offline
 - Source code is authoritative and current
 
-**When asked about any library:**
-1. Use the appropriate `/library-command` to get context
-2. Examine actual source files at the local paths
-3. Provide examples from real implementation code
-4. Reference current TypeScript definitions
+**For Library Questions:**
+Use `/library-command` to get specific context, then examine actual source files and provide real examples from the codebase.
 
-**System validation:** Use `/health-check` to run: `cd ~/.better-coding-agents && ./scripts/validate.sh`
+**System Health:**
+Use `/health-check` for validation.
