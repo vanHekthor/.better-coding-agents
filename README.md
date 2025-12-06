@@ -28,10 +28,12 @@ When you use a Cursor command like `/maplibre-gl-js`, it tells the AI assistant 
 
 For the best experience, set up automatic context in Cursor:
 
-### Option 1: Global Instructions
+### Option 1: Global Rules (Recommended)
 1. Copy the template from `global-instructions-template.md`
-2. Go to Cursor Settings → General → Global Instructions
-3. Paste and save - now every conversation has context!
+2. Go to Cursor Settings → Rules & Commands → Rules
+3. Click "Add Rule" and set scope to "Global"
+4. Paste the template content
+5. Save - now every conversation has context!
 
 ### Option 2: Quick Context Command
 Use `/setup-context` in any chat to establish the full context automatically.

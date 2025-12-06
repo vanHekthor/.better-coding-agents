@@ -1,6 +1,6 @@
-# Global Instructions Template for .better-coding-agents
+# Global Rule Template for .better-coding-agents
 
-Copy and paste this into Cursor's Global Instructions:
+Copy and paste this into Cursor's Global Rules:
 
 ---
 
@@ -30,11 +30,13 @@ I have local access to complete source code repositories for several key librari
 
 ---
 
-## How to Set Global Instructions in Cursor:
+## How to Set Global Rules in Cursor:
 
 1. Open Cursor Settings (Cmd/Ctrl + ,)
-2. Go to "General" → "Global Instructions"
-3. Paste the above template
-4. Save and restart Cursor
+2. Go to "Rules & Commands" → "Rules"
+3. Click "Add Rule" or "Create Global Rule"
+4. Set scope to "Global" (not workspace-specific)
+5. Paste the above template as the rule content
+6. Save and restart Cursor
 
 This will automatically provide context in every conversation!
