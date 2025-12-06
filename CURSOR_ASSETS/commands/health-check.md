@@ -2,11 +2,16 @@
 
 Usage: /health-check
 
-This command validates that all resources are properly installed and accessible.
+When this command is used, immediately run the validation:
 
-It checks:
+```bash
+cd ~/.better-coding-agents && ./scripts/validate.sh
+```
 
-- Resources directory exists
-- All library source code is present
-- Cursor commands are installed
-- Basic file access works
+This will check:
+- Resources directory exists at `~/.better-coding-agents/resources/`
+- All 4 libraries are present: maplibre-gl-js, deck.gl, svelte.dev, neverthrow
+- Cursor commands are installed globally
+- File access permissions are working
+
+Report the results clearly - either "✅ All systems operational" or list any missing components.

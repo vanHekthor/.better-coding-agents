@@ -26,7 +26,7 @@ I have local access to complete source code repositories for several key librari
 - Reference current TypeScript definitions and documentation
 - Show patterns from the actual codebase
 
-**For health checks:** Use `/health-check` to validate system status.
+**For health checks:** Use `/health-check` to run `cd ~/.better-coding-agents && ./scripts/validate.sh` and report results.
 
 ---
 
