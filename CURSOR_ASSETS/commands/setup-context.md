@@ -2,31 +2,23 @@
 
 Usage: /setup-context
 
-This command establishes the context for using .better-coding-agents resources in any coding session.
+When this command is used, immediately acknowledge:
 
-## Available Resources
+**Available Libraries:**
+- **MapLibre GL JS** at `~/.better-coding-agents/resources/maplibre-gl-js` (use `/maplibre-gl-js`)
+- **deck.gl** at `~/.better-coding-agents/resources/deck.gl` (use `/deck.gl`)
+- **Svelte** at `~/.better-coding-agents/resources/svelte.dev` (use `/svelte`)
+- **Neverthrow** at `~/.better-coding-agents/resources/neverthrow` (use `/neverthrow`)
 
-I have local access to source code for several libraries via `.better-coding-agents`:
-
-- **MapLibre GL JS** - Interactive vector maps (`/maplibre-gl-js`)
-- **deck.gl** - WebGL data visualization (`/deck.gl`)
-- **Svelte** - Reactive UI framework (`/svelte`)
-- **Neverthrow** - Type-safe error handling (`/neverthrow`)
-
-## Important Notes
-
-- All source code is available locally at `~/.better-coding-agents/resources/` - no APIs or external services required
-- This is a LOCAL FILESYSTEM COPY - not an API or MCP server
-- Use direct file operations to search the codebase
+**Key Facts:**
+- Local filesystem access only - no APIs or external services
 - Works completely offline
+- Source code is authoritative and current
 
-## Workflow
+**When asked about any library:**
+1. Use the appropriate `/library-command` to get context
+2. Examine actual source files at the local paths
+3. Provide examples from real implementation code
+4. Reference current TypeScript definitions
 
-1. Use appropriate `/library-command` for specific questions
-2. Request examination of actual source code files
-3. Ask for examples from the real codebase
-4. Verify implementations against current source
-
-## Health Check
-
-Run `/health-check` to validate that all resources are properly installed and accessible.
+**System validation:** Use `/health-check` to run: `cd ~/.better-coding-agents && ./scripts/validate.sh`
