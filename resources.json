@@ -1,0 +1,24 @@
+{
+  "resources": {
+    "maplibre-gl-js": {
+      "path": "resources/maplibre-gl-js",
+      "url": "https://github.com/maplibre/maplibre-gl-js",
+      "description": "Open-source library for interactive vector tile maps in the browser"
+    },
+    "deck.gl": {
+      "path": "resources/deck.gl",
+      "url": "https://github.com/visgl/deck.gl",
+      "description": "WebGL2-powered visualization framework for large-scale data visualization"
+    },
+    "neverthrow": {
+      "path": "resources/neverthrow",
+      "url": "https://github.com/supermacro/neverthrow",
+      "description": "Type-safe error handling for TypeScript and JavaScript"
+    },
+    "svelte.dev": {
+      "path": "resources/svelte.dev",
+      "url": "https://github.com/sveltejs/svelte.dev",
+      "description": "Official Svelte documentation and website repository"
+    }
+  }
+}

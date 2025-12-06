@@ -13,6 +13,17 @@ This project has this setup for:
 - deck.gl
 - maplibre-gl-js
 
+## How It Works
+
+This utility provides **local filesystem access** to cloned source repositories:
+
+1. **No APIs or external services** - Everything is local
+2. **No MCP servers** - Direct file access only
+3. **No network required** - Works offline
+4. **Git subtrees** - Each resource is a git subtree for easy updates
+
+When you use a Cursor command like `/maplibre-gl-js`, it tells the AI assistant where to find the local source code for searching.
+
 ## getting started
 
 1. clone the repo into your home directory, it should be called `~/.better-coding-agents`

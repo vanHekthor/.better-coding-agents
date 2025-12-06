@@ -1,4 +1,6 @@
-You have access to the Svelte documentation and source code at `~/.better-coding-agents/resources/svelte.dev`.
+Svelte source code is available locally at `~/.better-coding-agents/resources/svelte.dev`.
+
+This is a LOCAL FILESYSTEM COPY - not an API or MCP server. Use direct file operations to search the codebase.
 
 Use this codebase to provide accurate, up-to-date information about Svelte, SvelteKit, and related tools.
 
